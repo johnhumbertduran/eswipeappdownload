@@ -1,0 +1,249 @@
+
+
+    /* ########################
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ######################## */
+       @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
+
+        .resumeBox{
+            box-shadow: -5px 5px 5px #00000080;
+            background-color: #fff;
+            display: block;
+            position: relative;
+            padding-top: 1%;
+            right:4%;
+            clear: both;
+            width: 80%;
+        }
+
+        .resume_name{
+            font-size: 1em;
+            color: rgb(35, 72, 236);
+            /* padding-top: 10px; */
+        }
+
+        .details{
+            font-size: .6em;
+        }
+
+        .blue_big{
+            font-size: 1em;
+        }
+        
+        .blue_small{
+            font-size: .9em;
+        }
+        
+        .email{
+            text-decoration-line: underline;
+            color:blue;
+        }
+        
+        .git{
+            color: blue;
+        }
+        
+        .left-header_align{
+            color: rgb(35, 72, 236);
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        .left-text_align{
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        .left-text_bullets_align{
+            text-align: left;
+            margin-left: 3%;
+        }
+        
+        .bsit{
+            color: rgb(52, 87, 240);
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        .left-text_align_school{
+            text-align: left;
+            margin-left: 5%;
+            margin-top: -2%;
+        }
+        
+        .left-text_bullets_align_references{
+            padding-bottom: 40px;
+            text-align: left;
+            margin-left: 3%;
+        }
+
+        .norm_text{
+            font-size: .6em;
+        }
+        
+        .softCopy{
+            background-color: rgb(236, 27, 27);
+            color: rgb(242, 255, 189);
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: .6em;
+            position: fixed;
+            padding: 1%;
+            bottom: 5%;
+            left: 1%;
+        }
+        
+        
+        .softCopy:hover{
+            box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.733);
+            background-color: rgb(242, 255, 189);
+            color: rgb(236, 27, 27);
+            clear: both;
+        }
+
+        .breakLines{
+            position: absolute;
+            top: 220%;
+            /* background-color: #aa0000; */
+            padding: 30px;
+            /* width: 100%; */
+        }
+
+       }
+
+
+
+    /* #######################################################
+       ##                                                   ##
+       ##                                                   ##
+       ##                                                   ##
+       ##                                                   ##
+       ##                                                   ##
+       ##                                                   ##
+       ##                                                   ##
+       ##                                                   ##
+       ##                                                   ##
+       ####################################################### */
+       @media only screen and (min-width: 411px) and (max-width: 823px) and (orientation: landscape) {
+
+        .resumeBox{
+            box-shadow: -5px 5px 5px #00000080;
+            background-color: #fff;
+            display: block;
+            position: relative;
+            padding-top: 1%;
+            right:4%;
+            clear: both;
+            width: 80%;
+        }
+
+        .resume_name{
+            font-size: 1em;
+            color: rgb(35, 72, 236);
+            /* padding-top: 10px; */
+        }
+
+        .details{
+            font-size: .6em;
+            text-align: center;
+        }
+
+        .blue_big{
+            font-size: 1em;
+        }
+        
+        .blue_small{
+            font-size: .9em;
+        }
+        
+        .email{
+            text-decoration-line: underline;
+            color:blue;
+        }
+        
+        .git{
+            color: blue;
+        }
+        
+        .left-header_align{
+            color: rgb(35, 72, 236);
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        .left-text_align{
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        .left-text_bullets_align{
+            text-align: left;
+            margin-left: 3%;
+        }
+        
+        .bsit{
+            color: rgb(52, 87, 240);
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        .left-text_align_school{
+            text-align: left;
+            margin-left: 5%;
+            margin-top: -2%;
+        }
+        
+        .left-text_bullets_align_references{
+            padding-bottom: 40px;
+            text-align: left;
+            margin-left: 3%;
+        }
+
+        .norm_text{
+            font-size: .6em;
+        }
+        
+        .softCopy{
+            background-color: rgb(236, 27, 27);
+            color: rgb(242, 255, 189);
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: .6em;
+            position: fixed;
+            padding: 1%;
+            bottom: 5%;
+            left: 1%;
+        }
+        
+        
+        .softCopy:hover{
+            box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.733);
+            background-color: rgb(242, 255, 189);
+            color: rgb(236, 27, 27);
+            clear: both;
+        }
+
+        .breakLines{
+            position: absolute;
+            top: 375%;
+            /* background-color: #aa0000; */
+            padding: 30px;
+            /* width: 100%; */
+        }
+            
+       }

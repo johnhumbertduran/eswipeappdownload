@@ -1,0 +1,667 @@
+
+
+.absolute{
+    position: sticky;
+    right: 7%;
+    top: 2.3%;
+}
+
+.fr{
+    float: right !important;
+}
+
+.img{
+    background-color: rgb(255, 255, 255);
+    border: 7px solid #7e8de6;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    width:200px;
+    left: 3%;
+}
+
+.bg-gray{
+    background-color: rgba(128, 128, 128, 0.356);
+}
+
+.bg-darkgray{
+    background-color: rgba(128, 128, 128);
+}
+
+/* not active */
+.nav-item .active{
+    background-color: rgb(166, 167, 166) !important;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.tab-content .active{
+    background-color: rgb(166, 167, 166) !important;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.nav-link:not(.active){
+    color: rgb(43, 42, 42);
+}
+
+
+.head{
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+}
+
+.head:hover{
+    color: rgb(224, 255, 234);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.opac:hover{
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+.fab, .far, .fas{
+    color: #fff;
+
+
+    -webkit-animation-name: zoomLogo;
+    -webkit-animation-duration: 1s;
+    animation-name: zoomLogo;
+    animation-duration: 1s;
+
+    -ms-transform: scale(0.6); /* IE 9 */
+    -webkit-transform: scale(0.6); /* Chrome, Safari, Opera */
+    transform: scale(0.6);
+
+    /* font-size: 1.5em; */
+}
+
+@-webkit-keyframes zoomLogo {
+    from {-webkit-transform: scale(0.01)} 
+    to {-webkit-transform: scale(0.6)}
+}
+
+@keyframes zoomLogo {
+    from {transform: scale(0.01)} 
+    to {transform: scale(0.6)}
+}
+
+.fab:hover, .far:hover, .fas:hover{
+
+    -webkit-animation-name: zoomLogoHover;
+    -webkit-animation-duration: .5s;
+    animation-name: zoomLogoHover;
+    animation-duration: .5s;
+
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Chrome, Safari, Opera */
+    transform: scale(1.3);
+
+}
+
+.fa-phone-alt:hover{
+    color: rgb(60, 255, 0);
+}
+
+.fa-map-marker-alt:hover{
+    color: rgb(223, 25, 25);
+}
+
+.fa-facebook-square:hover{
+    color: #1d47d1;
+}
+
+.fa-envelope:hover{
+    color: rgb(223, 25, 25);
+}
+
+.fa-linkedin-in:hover{
+    color: #ffffff;
+}
+
+.fa-youtube:hover{
+    color: rgb(223, 25, 25);
+}
+
+.fa-github:hover{
+    color: rgb(109, 12, 165);
+}
+
+@-webkit-keyframes zoomLogoHover {
+    from {-webkit-transform: scale(0.6)} 
+    to {-webkit-transform: scale(1.3)}
+}
+
+@keyframes zoomLogoHover {
+    from {transform: scale(0.6)} 
+    to {transform: scale(1.3)}
+}
+
+.modal-header{
+    border-radius: 6px;
+    padding-bottom: 2%;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+/* Resume Desktop Styles */
+
+
+@media only screen and (min-width: 1024px) and (max-width: 2560px) {
+    .resumeBox{
+        box-shadow: -5px 5px 5px #00000080;
+        background-color: #fff;
+        display: block;
+        clear: both;
+        width: 70%;
+    }
+    
+    .resume_name{
+        color: rgb(35, 72, 236);
+        padding-top: 40px;
+    }
+    
+    .email{
+        text-decoration-line: underline;
+        color:blue;
+    }
+    
+    .git{
+        color: blue;
+    }
+    
+    .left-header_align{
+        color: rgb(35, 72, 236);
+        text-align: left;
+        margin-left: 5%;
+    }
+    
+    .left-text_align{
+        text-align: left;
+        margin-left: 5%;
+    }
+    
+    .left-text_bullets_align{
+        text-align: left;
+        margin-left: 3%;
+    }
+    
+    .bsit{
+        color: rgb(52, 87, 240);
+        text-align: left;
+        margin-left: 5%;
+    }
+    
+    .left-text_align_school{
+        text-align: left;
+        margin-left: 5%;
+        margin-top: -2%;
+    }
+    
+    .left-text_bullets_align_references{
+        padding-bottom: 40px;
+        text-align: left;
+        margin-left: 3%;
+    }
+    
+    .softCopy{
+        background-color: rgb(236, 27, 27);
+        color: rgb(242, 255, 189);
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: bold;
+        position: fixed;
+        padding: 1%;
+        bottom: 5%;
+        left: 3%;
+    }
+    
+    
+    .softCopy:hover{
+        box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.733);
+        background-color: rgb(242, 255, 189);
+        color: rgb(236, 27, 27);
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Resume Mobile Styles */
+    
+
+    /* ########################
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ######################## */
+       @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
+
+        .resumeBox{
+            box-shadow: -5px 5px 5px #00000080;
+            background-color: #fff;
+            display: block;
+            position: relative;
+            padding-top: 1%;
+            right:4%;
+            clear: both;
+            width: 80%;
+        }
+
+        .resume_name{
+            font-size: 1em;
+            color: rgb(35, 72, 236);
+            /* padding-top: 10px; */
+        }
+
+        .details{
+            font-size: .6em;
+        }
+
+        .blue_big{
+            font-size: 1em;
+        }
+        
+        .blue_small{
+            font-size: .9em;
+        }
+        
+        .email{
+            text-decoration-line: underline;
+            color:blue;
+        }
+        
+        .git{
+            color: blue;
+        }
+        
+        .left-header_align{
+            color: rgb(35, 72, 236);
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        .left-text_align{
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        .left-text_bullets_align{
+            text-align: left;
+            margin-left: 3%;
+        }
+        
+        .bsit{
+            color: rgb(52, 87, 240);
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        .left-text_align_school{
+            text-align: left;
+            margin-left: 5%;
+            margin-top: -2%;
+        }
+        
+        .left-text_bullets_align_references{
+            padding-bottom: 40px;
+            text-align: left;
+            margin-left: 3%;
+        }
+
+        .norm_text{
+            font-size: .6em;
+        }
+        
+        .softCopy{
+            background-color: rgb(236, 27, 27);
+            color: rgb(242, 255, 189);
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: .6em;
+            position: fixed;
+            padding: 1%;
+            bottom: 5%;
+            left: 1%;
+        }
+        
+        
+        .softCopy:hover{
+            box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.733);
+            background-color: rgb(242, 255, 189);
+            color: rgb(236, 27, 27);
+            clear: both;
+        }
+
+        .breakLines{
+            position: absolute;
+            top: 220%;
+            /* background-color: #aa0000; */
+            padding: 30px;
+            /* width: 100%; */
+        }
+
+       }
+
+
+
+    /* #######################################################
+       ##                                                   ##
+       ##                                                   ##
+       ##                                                   ##
+       ##                                                   ##
+       ##                                                   ##
+       ##                                                   ##
+       ##                                                   ##
+       ##                                                   ##
+       ##                                                   ##
+       ####################################################### */
+       @media only screen and (min-width: 411px) and (max-width: 823px) and (orientation: landscape) {
+
+        .resumeBox{
+            box-shadow: -5px 5px 5px #00000080;
+            background-color: #fff;
+            display: block;
+            position: relative;
+            padding-top: 1%;
+            right:4%;
+            clear: both;
+            width: 80%;
+        }
+
+        .resume_name{
+            font-size: 1em;
+            color: rgb(35, 72, 236);
+            /* padding-top: 10px; */
+        }
+
+        .details{
+            font-size: .6em;
+            text-align: center;
+        }
+
+        .blue_big{
+            font-size: 1em;
+        }
+        
+        .blue_small{
+            font-size: .9em;
+        }
+        
+        .email{
+            text-decoration-line: underline;
+            color:blue;
+        }
+        
+        .git{
+            color: blue;
+        }
+        
+        .left-header_align{
+            color: rgb(35, 72, 236);
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        .left-text_align{
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        .left-text_bullets_align{
+            text-align: left;
+            margin-left: 3%;
+        }
+        
+        .bsit{
+            color: rgb(52, 87, 240);
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        .left-text_align_school{
+            text-align: left;
+            margin-left: 5%;
+            margin-top: -2%;
+        }
+        
+        .left-text_bullets_align_references{
+            padding-bottom: 40px;
+            text-align: left;
+            margin-left: 3%;
+        }
+
+        .norm_text{
+            font-size: .6em;
+        }
+        
+        .softCopy{
+            background-color: rgb(236, 27, 27);
+            color: rgb(242, 255, 189);
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: .6em;
+            position: fixed;
+            padding: 1%;
+            bottom: 5%;
+            left: 1%;
+        }
+        
+        
+        .softCopy:hover{
+            box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.733);
+            background-color: rgb(242, 255, 189);
+            color: rgb(236, 27, 27);
+            clear: both;
+        }
+
+        .breakLines{
+            position: absolute;
+            top: 375%;
+            /* background-color: #aa0000; */
+            padding: 30px;
+            /* width: 100%; */
+        }
+            
+       }
+
+
+
+
+
+
+       /* Resume Tablet Styles */
+       
+
+    /* ########################
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ##                    ##
+       ######################## */
+       @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) { 
+
+    
+
+        .resumeBox{
+            box-shadow: -5px 5px 5px #00000080;
+            background-color: #fff;
+            display: block;
+            position: relative;
+            right:4%;
+            clear: both;
+            width: 80%;
+        }
+
+        .resume_name{
+            color: rgb(35, 72, 236);
+            padding-top: 40px;
+        }
+        
+        .email{
+            text-decoration-line: underline;
+            color:blue;
+        }
+        
+        .git{
+            color: blue;
+        }
+        
+        .left-header_align{
+            color: rgb(35, 72, 236);
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        .left-text_align{
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        .left-text_bullets_align{
+            text-align: left;
+            margin-left: 3%;
+        }
+        
+        .bsit{
+            color: rgb(52, 87, 240);
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        .left-text_align_school{
+            text-align: left;
+            margin-left: 5%;
+            margin-top: -2%;
+        }
+        
+        .left-text_bullets_align_references{
+            padding-bottom: 40px;
+            text-align: left;
+            margin-left: 3%;
+        }
+        
+        .softCopy{
+            background-color: rgb(236, 27, 27);
+            color: rgb(242, 255, 189);
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            position: fixed;
+            padding: 1%;
+            bottom: 5%;
+            left: 1%;
+        }
+        
+        
+        .softCopy:hover{
+            box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.733);
+            background-color: rgb(242, 255, 189);
+            color: rgb(236, 27, 27);
+        }
+
+
+   }
+
+
+
+
+/* ########################
+   ##                    ##
+   ##                    ##
+   ##                    ##
+   ##                    ##
+   ##                    ##
+   ##                    ##
+   ##                    ##
+   ##                    ##
+   ##                    ##
+   ##                    ##
+   ##                    ##
+   ##                    ##
+   ##                    ##
+   ##                    ##
+   ######################## */
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+    
+
+
+    .softCopy{
+        background-color: rgb(236, 27, 27);
+        color: rgb(242, 255, 189);
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: bold;
+        position: fixed;
+        padding: 1%;
+        bottom: 5%;
+        left: 3%;
+    }
+}
+
+.tooltip-inner{
+    /* padding:2px 7px; */
+    color:#ffffff;
+    /* text-align:center; */
+    font-weight:600;
+    background-color: #2b2b2b;
+    /* background: -webkit-gradient(linear, left top, left 25, from(#F4F4F4), color-stop(4%, #B4C8D6), to(#F4F4F4));
+    background: -moz-linear-gradient(top, #F4F4F4, #B4C8D6 1px, #F4F4F4 25px); */
+    /* border: 1px solid #55AAAA; */
+    -webkit-border-radius:9px;
+    -moz-border-radius:9px;
+    border-radius:9px;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: #2b2b2b !important;
+}
+
+.tooltip{
+    margin-top: .8%;
+}
